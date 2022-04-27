@@ -8,16 +8,33 @@ namespace Getters_And_Setters
 {
     internal class Movie
     {
-        public string Title { get; set; };
-        public string Director { get; set; };
-        public string Rating { get; set; };
+        //public means it is accessible for modification everywhere whereas private can only be set in this class.
+        public string title;
+        public string director;
+        private string rating;
 
         public Movie(string aTitle, string aDirector, string aRating)
         {
-            Title = aTitle;
-            Director = aDirector;
+            title = aTitle;
+            director = aDirector;
+            // This means it is now set via the setter which is secure
             Rating = aRating;
 
         }
+        public string Rating { 
+            get { return  rating}; 
+            //set specifies the valid values to compare to
+            set
+            {
+                if (value == "PG" || value == "12A" || value == "12" || value == "15" || value == "18")
+                {
+                    rating = value;
+                }
+                else
+                {
+                    rating = "NR";
+                }
+            }; 
+        };
     }
 }
