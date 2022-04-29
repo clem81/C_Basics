@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object_Methods", "Object_Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getters_And_Setters", "Getters_And_Setters\Getters_And_Setters.csproj", "{AB8B0F79-18D9-4725-A4EC-F0FD66896654}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoloLearn_Challenges", "SoloLearn_Challenges\SoloLearn_Challenges.csproj", "{D98C9848-2AA1-47BC-949A-4254FD3F3C90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{AB8B0F79-18D9-4725-A4EC-F0FD66896654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8B0F79-18D9-4725-A4EC-F0FD66896654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB8B0F79-18D9-4725-A4EC-F0FD66896654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98C9848-2AA1-47BC-949A-4254FD3F3C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98C9848-2AA1-47BC-949A-4254FD3F3C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98C9848-2AA1-47BC-949A-4254FD3F3C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98C9848-2AA1-47BC-949A-4254FD3F3C90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
