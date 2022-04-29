@@ -3,29 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Basics\Basics.csproj", "{553FBADE-0FA2-4FDF-8F48-92F222D5F308}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csproj", "{553FBADE-0FA2-4FDF-8F48-92F222D5F308}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{CA8668E5-A684-4A23-AD53-A76011931830}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{CA8668E5-A684-4A23-AD53-A76011931830}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{76C2FBF4-1182-4F5F-81BD-436851D2101B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{76C2FBF4-1182-4F5F-81BD-436851D2101B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfStatements", "IfStatements\IfStatements.csproj", "{1EADC204-3C1F-4E30-BA7B-B0AC7567298D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatements", "IfStatements\IfStatements.csproj", "{1EADC204-3C1F-4E30-BA7B-B0AC7567298D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoD_Arrays", "TwoD_Arrays\TwoD_Arrays.csproj", "{6BCFEFF2-EA35-474E-A639-C4319A8E5AEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoD_Arrays", "TwoD_Arrays\TwoD_Arrays.csproj", "{6BCFEFF2-EA35-474E-A639-C4319A8E5AEE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exception_Handling", "Exception_Handling\Exception_Handling.csproj", "{0C129211-A904-4F3E-BD5A-67CED986AB83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception_Handling", "Exception_Handling\Exception_Handling.csproj", "{0C129211-A904-4F3E-BD5A-67CED986AB83}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_And_Objects", "Classes_And_Objects\Classes_And_Objects.csproj", "{40BC8D1A-973B-49D8-A8F3-B256025519D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_And_Objects", "Classes_And_Objects\Classes_And_Objects.csproj", "{40BC8D1A-973B-49D8-A8F3-B256025519D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object_Methods", "Object_Methods\Object_Methods.csproj", "{387CE3C2-E604-4419-B221-CF6ECC49B986}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object_Methods", "Object_Methods\Object_Methods.csproj", "{387CE3C2-E604-4419-B221-CF6ECC49B986}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Getters_And_Setters", "Getters_And_Setters\Getters_And_Setters.csproj", "{AB8B0F79-18D9-4725-A4EC-F0FD66896654}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getters_And_Setters", "Getters_And_Setters\Getters_And_Setters.csproj", "{AB8B0F79-18D9-4725-A4EC-F0FD66896654}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static_Classes", "Static_Classes\Static_Classes.csproj", "{1B8FCF88-3357-445F-9864-655962242FB7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static_Methods_and_Classes", "Static_Methods_and_Classes\Static_Methods_and_Classes.csproj", "{FFEFEE68-DC95-4C22-BD26-AC34BBD1CF00}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{1131B5B1-CA29-4CEE-89D1-25634B200D9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoloLearn_Challenges", "SoloLearn_Challenges\SoloLearn_Challenges.csproj", "{D98C9848-2AA1-47BC-949A-4254FD3F3C90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,18 +65,10 @@ Global
 		{AB8B0F79-18D9-4725-A4EC-F0FD66896654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8B0F79-18D9-4725-A4EC-F0FD66896654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB8B0F79-18D9-4725-A4EC-F0FD66896654}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B8FCF88-3357-445F-9864-655962242FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B8FCF88-3357-445F-9864-655962242FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B8FCF88-3357-445F-9864-655962242FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B8FCF88-3357-445F-9864-655962242FB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FFEFEE68-DC95-4C22-BD26-AC34BBD1CF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FFEFEE68-DC95-4C22-BD26-AC34BBD1CF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FFEFEE68-DC95-4C22-BD26-AC34BBD1CF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FFEFEE68-DC95-4C22-BD26-AC34BBD1CF00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1131B5B1-CA29-4CEE-89D1-25634B200D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1131B5B1-CA29-4CEE-89D1-25634B200D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1131B5B1-CA29-4CEE-89D1-25634B200D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1131B5B1-CA29-4CEE-89D1-25634B200D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98C9848-2AA1-47BC-949A-4254FD3F3C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98C9848-2AA1-47BC-949A-4254FD3F3C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98C9848-2AA1-47BC-949A-4254FD3F3C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98C9848-2AA1-47BC-949A-4254FD3F3C90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
